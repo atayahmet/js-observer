@@ -1,6 +1,6 @@
-var Status = require('./Status');
+var status = require('./Status');
 
-var pageLoadingStatus = new Status();
+var pageLoadingStatus = new status();
 pageLoadingStatus.subscribe(function() {console.log("Loading")});
 
 var pageLoading = {

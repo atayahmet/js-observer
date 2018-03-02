@@ -1,8 +1,8 @@
-function Status () {
+function status () {
   this.observers = [];
 }
 
-Status.prototype = {
+status.prototype = {
   raise : function (data)
   {
     for (var i in this.observers)
@@ -23,4 +23,4 @@ Status.prototype = {
     }
   }
 
-module.exports = Status;
+module.exports = status;
