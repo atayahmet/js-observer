@@ -1,4 +1,4 @@
-# sibdev-observer
+# js-observer
 
-javascript observer exapmle
+javascript observer exapmle </br>
 run with "node youtuber.js"
